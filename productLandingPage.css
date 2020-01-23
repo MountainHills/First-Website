@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+/*Lato Font*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", arial;
+}
+
+/*Used for Spaces and Anchor Points*/
+.navigation-links {
+	height: 65px;
+}
+
+/*Button Styling*/
+.btn {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-weight: 900;
+	box-shadow: 2px 2px 5px grey;
+	cursor: pointer; 
+}
+
+.btn:hover {
+	background: #FFCC00;
+}
+
+.btn:active {
+	background: orange;
+}
+
+/*Anchor Points*/
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	font-size: 1.2em;
+	transition: font-size;   
+    transition-delay: 0.1s;
+}
+
+
+
+/*Section Properties*/
+
+/* Start of Header*/
+header {
+	background-color: orange;
+	position: fixed;
+	display: flex;
+	width: 100%;
+}
+
+#logo-image {
+	height: 50px;
+	width: 125px;
+	padding: 10px;
+}
+
+nav {
+	width: 100%;
+}
+
+#nav-bar a {
+	color: black;
+	text-decoration: none;
+	float: right;
+	margin-top: 26px;
+	margin-right: 30px;
+	font-size: 1.1em;
+	font-weight: 900;
+}
+
+#nav-bar a:hover {
+	font-size: 1.2em;
+}
+/* End of Header*/
+
+/*Start of Email Subscription*/
+#email-sub {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+
+}
+
+#email {
+	width: 50%;
+	border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 5px grey; 
+}
+
+/*End of Email Subscription*/
+
+/*Start of Books Section*/
+#book-section {
+	display: flex;
+}
+
+.book-container {
+	margin: 15px;
+	width: 33%;
+}
+
+.book-image {
+	text-align: center;
+}
+.book-cover {
+	width: 45%;
+	height: 108%;
+}
+
+.book-synopsis {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+}
+
+.synopsis {
+	text-align: justify;
+	font-size: 130%;
+}
+/*Media Query if screen is below 768px*/
+/*@media screen and (max-width: 768px) {
+  section {
+    display: block;
+  }*/
+/*End of Books Section*/
+
+/*Start of Video Section*/
+#video-description {
+	text-align: center;
+}
+
+.video-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*End of Video Section*/
+
+/*Start of Pricing Section*/
+
+#price-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.journal {
+	width: 30%;
+	border: 1px solid black;
+	margin: 10px;
+	weight: 50%;
+}
+
+.journalcontents ul {
+	list-style: none;
+	padding: 0;
+}
+
+.journalname {
+	background: #4169E1;
+	padding: 2px;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+/* End of Pricing Section*/
+
+/* Start of Footer*/
+footer {
+	padding-top: 1px;
+	padding-bottom: 5px;
+	background-color: grey;
+	text-align: right;
+	width: 100%;
+}
+
+footer #name {
+	margin-right: 50px;
+}
+
+footer #contact-information {
+	margin-right: 10px;
+}
+/* End of Footer*/

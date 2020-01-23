@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="productLandingPage.css">
+	<title>Journal Journey</title>
+</head>
+<body>
+
+<!-- Start of Header -->
+
+<!-- The Header must have a Logo and a Navigation Bar -->
+
+<header>
+		<div>
+			<!-- Change this: to Appropriate Logo of Journal Journey -->
+			<img id="logo-image" src="JJ-logoimage.png" alt="Journal Journey Logo">
+		</div>
+		<nav id="nav-bar">
+			<a href="#books">Books</a>
+			<a href="#video">How it Works</a>
+			<a href="#prices">Pricing</a>
+		</nav>
+</header>
+<!-- End of Header -->
+
+<!-- Container Space for Allowance for Header -->
+<div class="navigation-links"></div>
+
+<!-- Start of Subscription -->
+<!-- There must contain an Email Subscription. Header and Description -->
+
+<section id="email-sub">
+	<div id="email-container">
+		<h2>Writing your story begins with a single letter</h2>
+
+		<div id="form-container">
+			<form 
+				id="email-subscription" 
+				action="https://www.freecodecamp.com/email-submit">
+			<input 
+				name="email" 
+				id="email" 
+				type="email" 
+				placeholder="Enter your email address" 
+				required />
+
+			<br>
+
+			<input 
+				id="submit" 
+				type="submit" 
+				value="Get Started" 
+				class="btn" />
+			</form>
+		</div>
+	</div>
+</section>
+<!-- End of Subscription -->
+
+<!-- Start of Content -->
+<!-- There must be Three Content Books, Video, and Prices -->
+
+<main class="main-content">
+	<div class="container">
+		<!-- Container Space for Allowance for Header -->
+		<div class="navigation-links" id="books"></div>
+
+		<section id="book-section">
+			<div class="book-container" id="TNE">
+				<div class="book-image">
+					<img class="book-cover" src="TNE_BookCover.jpg" alt="The Novel's Extra Book Cover">
+				</div>
+				<div class="book-synopsis">
+					<h2 class="title">The Novel's Extra</h2>
+					<p class="synopsis">
+						Waking up, Kim Hajin finds himself in a familiar world but an unfamiliar body. A world he created himself and a story he wrote, yet never finished. He had become his novel's extra, a filler character with no importance to the story. The only clue to escaping is to stay close to the main storyline. However, he soon finds out the world isn't exactly identical to his creation.
+					</p>
+				</div>
+			</div>
+
+
+			<div class="book-container" id="GOC">
+				<div class="book-image">
+					<img class="book-cover" src="GOC_BookCover.jpeg" alt="God of Cooking Book Cover">
+				</div>
+				<div class="book-synopsis">
+					<h2 class="title">God of Cooking</h2>
+					<p class="synopsis">
+						30-year-old Jo Minjoon has always wanted to become a chef. He started his culinary career late in life, however, and is currently chopping onions at a restaurant. Regretting his life choices, he wishes he could go back to change it all and falls asleep. Meanwhile, someone out there is willing to give him another chance and send him back in time. How will he use the new powers he obtained from this mysterious being?
+					</p>
+				</div>
+
+			</div>
+
+
+			<div class="book-container" id="GOM">
+				<div class="book-image">
+					<img class="book-cover" src="GOM_BookCover.jpeg" alt="God of Music Book Cover">
+				</div>
+				<div class="book-synopsis">
+					<h2 class="title">God of Music</h2>
+					<p class="synopsis">
+						A minus’ hand that fails every singer he put his hands on, Kang Yoon. He meets his death after being chased by loan sharks, losing his beloved sister and his everyday life. However, with those 10 years earned through coincidence… In his new life, he will walk the path to the best planner. 3rd rate or 1st rate, through his hands, they will become legends!
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Container Space for Allowance for Header -->
+		<div class="navigation-links" id="video"></div>
+
+		<section>
+			<h1 id="video-description">This video recently struck me the most</h1>
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/qv25aKhGANE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</section>
+
+		<!-- Container Space for Allowance for Header -->
+		<div class="navigation-links" id="prices"></div>
+
+		<section id="price-section">
+			<div id="price-container">
+				<div class="journal" id="cloth">
+					<div class="journalname">
+						<p>Cloth Journal</p>
+					</div>
+
+					<div class="journalcontents">
+						<p class="price-amount"></p>
+						<ul class="journalfeatures">
+							<li>Lorem</li>
+							<li>Ipsum</li>
+							<li>Manga</li>
+							<li>Reddit</li>
+						</ul>
+						<button 
+							class="btn" 
+							onclick="window.location.href = 'https://youtube.com';">More Info</button>
+					</div>
+				</div>
+
+
+				<div class="journal" id="hardbound">
+					<div class="journalname">
+						<p>Hardbound Journal</p>
+					</div>
+					
+					<div class="journalcontents">
+						<p class="price-amount"></p>
+						<ul class="journalfeatures">
+							<li>Lorem</li>
+							<li>Ipsum</li>
+							<li>Manga</li>
+							<li>Reddit</li>
+						</ul>
+						<button 
+							class="btn" 
+							onclick="window.location.href = 'https://youtube.com';">More Info</button>
+					</div>
+				</div>
+
+				<div class="journal" id="leather">
+					<div class="journalname">
+						<p>Leather Journal</p>
+					</div>
+					
+					<div class="journalcontents">
+						<p class="price-amount"></p>
+						<ul class="journalfeatures">
+							<li>Lorem</li>
+							<li>Ipsum</li>
+							<li>Manga</li>
+							<li>Reddit</li>
+						</ul>
+						<button 
+							class="btn" 
+							onclick="window.location.href = 'https://youtube.com';">More Info</button>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+</main>
+
+<div class="navigation-links"></div>
+
+
+<!-- End of Content -->
+
+<!-- Start of Footer -->
+<!-- Contain Privacy, Contact (Survey Form),  -->
+
+ <footer>
+ 	<div>
+	  <p id="name"><b>Posted by: Anton Oliver M. Bondoc</b></p>
+	  <p id="contact-information">Contact information: <a href="mailto:someone@example.com"><b>antonbondoc14@gmail.com</b></a>.</p>
+  	</div>
+</footer> 
+
+<!-- End of Footer -->
+</body>
+</html>
